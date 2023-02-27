@@ -1,0 +1,30 @@
+.flex
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.box
+{
+    border-style: solid;
+}
+.roundedcorners
+{
+    border-radius: 25px;
+    background: yellowgreen;
+    padding: 20px;
+    width: 1200px;
+    height: 200px;
+}
+.roundedcornersbar
+{
+    border-radius: 25px;
+    color: blue;
+    background: beige;
+    padding: 20px;
+    width: 1200px;
+    height: 40px;
+}
+.margin {
+    margin: 20px;
+}
