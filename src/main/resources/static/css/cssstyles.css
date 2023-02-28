@@ -38,9 +38,19 @@
 .margin {
     margin: 20px;
 }
+
+
+.opret-virksomhed{
+    margin:auto;
+    width:30%;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: darkgrey;
+
 .marginzero {
     margin: 0px;
 }
 .background {
     background-color:  #F4FCDF;
+
 }
