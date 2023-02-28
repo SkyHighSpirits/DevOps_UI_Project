@@ -1,8 +1,13 @@
-.flex
+.flexrow
 {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.flex
+{
+    display: flex;
 }
 .box
 {
@@ -11,7 +16,7 @@
 .roundedcorners
 {
     border-radius: 25px;
-    background: yellowgreen;
+    background: #6FFF6C;
     padding: 20px;
     width: 1200px;
     height: 200px;
