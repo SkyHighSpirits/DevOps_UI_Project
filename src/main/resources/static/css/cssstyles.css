@@ -1,7 +1,7 @@
 .flex
 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: column;
 }
 .box
@@ -19,15 +19,21 @@
 .roundedcornersbar
 {
     border-radius: 25px;
-    color: blue;
-    background: beige;
+    color: #FFFFFF;
+    background: #3FCE78;
     padding: 20px;
     width: 1200px;
     height: 40px;
 }
+.navbar
+{
+    background: #3FCE78;
+    color: #FFFFFF;
+}
 .margin {
     margin: 20px;
 }
+
 
 .opret-virksomhed{
     margin:auto;
@@ -35,4 +41,11 @@
     border: 3px solid black;
     padding: 10px;
     background-color: darkgrey;
+
+.marginzero {
+    margin: 0px;
+}
+.background {
+    background-color:  #F4FCDF;
+
 }
