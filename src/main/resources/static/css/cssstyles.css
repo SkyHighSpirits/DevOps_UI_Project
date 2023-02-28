@@ -1,3 +1,8 @@
+ /*
+ The main color theme of the background is: #F4FCDF
+ The color of the nav bar is: #3FCE78 with text color: #FFFFFF
+ The color of any buttons uses the .roundedcorners and has the color: #6FFF6C;
+  */
 .flexrow
 {
     display: flex;
@@ -21,15 +26,6 @@
     width: 1200px;
     height: 200px;
 }
-.roundedcornersbar
-{
-    border-radius: 25px;
-    color: #FFFFFF;
-    background: #3FCE78;
-    padding: 20px;
-    width: 1200px;
-    height: 40px;
-}
 .navbar
 {
     background: #3FCE78;
@@ -40,17 +36,17 @@
 }
 
 
-.opret-virksomhed{
-    margin:auto;
-    width:30%;
+.opret-virksomhed {
+    margin: auto;
+    width: 30%;
     border: 3px solid black;
     padding: 10px;
-    background-color: darkgrey;
-
+    background-color: #3FCE78;
+}
 .marginzero {
     margin: 0px;
 }
 .background {
-    background-color:  #F4FCDF;
+    background-color: #F4FCDF;
 
 }
