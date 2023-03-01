@@ -2,10 +2,10 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../static/css/navbarcss.css" th:href="@{css/navbarcss.css}" >
+    <link rel="stylesheet" href="../static/css/cssstyles.css" th:href="@{css/navbarcss.css}" >
     <title>Navbar</title>
 </head>
-<body>
+<body class="background">
     <nav>
         <label class="logo">StillGood</label>
         <button class="button button1">Contact</button>
@@ -17,4 +17,27 @@
         </ul>
     </nav>
 </body>
+<footer>
+    <div class="footerflex">
+        <div>
+            <h3>Section 1</h3>
+            <p>Privatlivspolitik</p>
+            <p>Cookies</p>
+        </div>
+        <div>
+            <h3>Kontaktinformation</h3>
+            <p>Adresse:</p>
+            <p>Postnummer:</p>
+            <p>By:</p>
+            <p>Telefon:</p>
+        </div>
+        <div>
+            <h3>Populære links</h3>
+            <p>Loginside</p>
+            <p>FAQ</p>
+            <p>Kontakt os</p>
+            <p>Karriere</p>
+        </div>
+    </div>
+</footer>
 </html>
