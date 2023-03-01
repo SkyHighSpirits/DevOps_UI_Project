@@ -1,14 +1,3 @@
- /*
- The main color theme of the background is: #F4FCDF
- The color of the nav bar is: #3FCE78 with text color: #FFFFFF
- The color of any buttons uses the .roundedcorners and has the color: #6FFF6C;
-  */
-.flexrow
-{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-}
 .flex
 {
     display: flex;
@@ -22,12 +11,12 @@
 .roundedcorners
 {
     border-radius: 25px;
-    background: #6FFF6C;
+    background: yellowgreen;
     padding: 20px;
     width: 1200px;
     height: 200px;
 }
-.navbar
+.roundedcornersbar
 {
     border-radius: 25px;
     color: blue;
@@ -77,4 +66,30 @@ footer{
 
 
 
+
+
+
+.textcenter {
+    text-align: center;
+}
+.centerpicture {
+    display: block;
+    margin: auto;
+    width: 50%;
+
+}
+
+
+
+
+.column{
+    flex: 33.33%;
+    padding: 5px;
+
+}
+.row{
+    display:flex;
+    padding-top: 50px;
+
+}
 
