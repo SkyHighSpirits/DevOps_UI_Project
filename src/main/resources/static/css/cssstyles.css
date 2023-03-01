@@ -3,6 +3,10 @@
  The color of the nav bar is: #3FCE78 with text color: #FFFFFF
  The color of any buttons uses the .roundedcorners and has the color: #6FFF6C;
   */
+ main
+ {
+ padding-top: 120px;
+ }
 .flexrow {
     display: flex;
     justify-content: space-around;
@@ -21,19 +25,10 @@
 .roundedcorners
 {
     border-radius: 25px;
-    background: #6FFF6C;
+    background: #ADD8E6;
     padding: 20px;
-    width: 1200px;
+    width: 400px;
     height: 200px;
-}
-.navbar
-{
-    border-radius: 25px;
-    color: blue;
-    background: beige;
-    padding: 20px;
-    width: 1200px;
-    height: 40px;
 }
 .margin {
     margin: 20px;
@@ -73,7 +68,14 @@ footer{
      font-family: serif;
      height: 100%;
  }
- nav{
+ header{
+     position: fixed;
+ }
+ .nav{
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: 9999;
      background: #0082e6;
      height: 80px;
      width: 100%;
