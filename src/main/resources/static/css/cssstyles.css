@@ -28,3 +28,30 @@
 .margin {
     margin: 20px;
 }
+
+.textcenter {
+    text-align: center;
+}
+.centerpicture {
+    display: block;
+    margin: auto;
+    width: 50%;
+
+}
+
+
+body {
+    background-color: beige;
+}
+
+.column{
+    flex: 33.33%;
+    padding: 5px;
+
+}
+.row{
+    display:flex;
+    padding-top: 50px;
+
+}
+
