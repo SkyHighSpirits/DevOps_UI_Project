@@ -57,8 +57,7 @@
 footer{
     position: center;
     bottom: 0%;
-    left: 0;
-    width: 100%;
+    width: auto;
     height: 200px; /* adjust height as needed */
     background-color: darkgreen; /* adjust background color as needed */
 }
