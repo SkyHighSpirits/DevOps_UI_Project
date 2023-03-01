@@ -55,7 +55,7 @@
 }
 
 footer{
-    position: center;
+    position: absolute;
     bottom: 0%;
     width: auto;
     height: 200px; /* adjust height as needed */
