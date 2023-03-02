@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../static/css/cssstyles.css" th:href="@{css/cssstyles.css}">
@@ -13,8 +13,8 @@
     <button class="button button2">Login</button>
     <ul>
       <li><a href="#">Privat</a></li>
-      <li><a href="#">Virksomhed</a></li>
-      <li><a href="#">Sponsor</a></li>
+      <li><a th:href="@{/opret-virksomhed}" href="opret-virksomhed.html">Virksomhed</a></li>
+      <li><a th:href="@{/#sponsorlink}" href="forside.html">Sponsor</a></li>
     </ul>
   </nav>
 
