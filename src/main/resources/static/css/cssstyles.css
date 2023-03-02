@@ -66,6 +66,7 @@ footer{
     width: 100%;
     height: 60px; /* adjust height as needed */
     background-color: darkgreen; /* adjust background color as needed */
+    color: white;
     <!--margin-top: auto;-->
 }
 
@@ -80,18 +81,21 @@ footer{
      font-family: serif;
      height: 100%;
  }
+ /* Navbar Structure */
  header{
      position: fixed;
  }
- .nav{
+
+ nav{
      position: fixed;
      top: 0;
      left: 0;
      z-index: 9999;
-     background: #0082e6;
+     background-color: darkgreen;
      height: 80px;
      width: 100%;
  }
+
  label.logo{
      color: white;
      font-size: 35px;
@@ -140,6 +144,8 @@ footer{
      left: 61%;
      top: -5px;
  }
+ /* Navbar done */
+
 .textcenter {
     text-align: center;
 }
@@ -161,7 +167,7 @@ footer{
 .textbox3{
     width: auto;
     background: white;
-    border: 15px solid dodgerblue;
+    border: 15px solid lightgreen;
     padding: 50px;
     margin: 20px;
     height: 150px;
@@ -169,7 +175,7 @@ footer{
 .textbox2{
     width: 300px;
     background: white;
-    border: 15px solid dodgerblue;
+    border: 15px solid lightgreen;
     padding: 50px;
     margin-left: 35%;
 
