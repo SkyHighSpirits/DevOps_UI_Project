@@ -182,3 +182,47 @@ footer{
      margin: 20px;
  }
 
+/* Structure for Info side - menu and textboxes */
+.privatcontainer{
+    display: flex;
+    height: 700px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.overskrift{
+    text-align: center;
+    font-size: 35px;
+}
+.outercontainer{
+    position: relative;
+    left: 400px;
+    width: 245px;
+    height: 279px;
+    border: 1px solid black;
+    margin: 2px;
+}
+
+.item{
+    width: 240px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 2px;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.textbox{
+    position: relative;
+    top: -279px;
+    left: 250px;
+    width: 450px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 2px;
+    font-size: 12px;
+    text-align: start;
+}
+/* Info Side done */
+
