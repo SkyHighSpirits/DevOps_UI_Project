@@ -173,11 +173,12 @@ footer{
     height: 150px;
 }
 .textbox2{
-    width: 300px;
+    width: auto;
     background: white;
     border: 15px solid lightgreen;
     padding: 50px;
     margin-left: 35%;
+    margin-right: 35%;
 }
  .locationspicture
  {
