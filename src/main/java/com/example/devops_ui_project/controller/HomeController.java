@@ -23,4 +23,9 @@ public class HomeController {
     public String tipsTilIndkob(){
         return "tipstilindkob";
     }
+
+    @GetMapping("/privat")
+    public String privat(){
+        return "privat";
+    }
 }
