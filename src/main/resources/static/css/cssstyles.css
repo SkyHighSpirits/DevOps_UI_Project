@@ -67,7 +67,7 @@ footer{
     height: 60px; /* adjust height as needed */
     background-color: darkgreen; /* adjust background color as needed */
     color: white;
-    <!--margin-top: auto;-->
+    margin-top: auto;
 }
 
 .footerflex{
@@ -178,7 +178,6 @@ footer{
     border: 15px solid lightgreen;
     padding: 50px;
     margin-left: 35%;
-
 }
  .locationspicture
  {

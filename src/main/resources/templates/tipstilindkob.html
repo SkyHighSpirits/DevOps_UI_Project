@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org/%22%3E">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-<link rel="stylesheet" href="../static/css/cssstyles.css" th:href="@{css/navbarcss.css}" >
+    <link rel="stylesheet" href="../static/css/cssstyles.css" th:href="@{css/cssstyles.css}">
 <title>tipstilindkob</title>
 </head>
     <!-- Navigation content goes here -->
@@ -12,9 +12,9 @@
             <button class="button button1">Contact</button>
             <button class="button button2">Login</button>
             <ul>
-                <li><a href="#">Privat</a></li>
-                <li><a href="#">Virksomhed</a></li>
-                <li><a href="#sponsorlink">Sponsor</a></li>
+                <li><a th:href="@{/tipstilindkob}" href="tipstilindkob.html">Privat</a></li>
+                <li><a th:href="@{/opret-virksomhed}" href="opret-virksomhed.html">Virksomhed</a></li>
+                <li><a th:href="@{/#sponsorlink}" href="forside.html">Sponsor</a></li>
             </ul>
         </nav>
     </nav>

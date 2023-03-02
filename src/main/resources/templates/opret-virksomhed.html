@@ -13,8 +13,8 @@
     <button class="button button2">Login</button>
     <ul>
         <li><a href="#">Privat</a></li>
-        <li><a href="#">Virksomhed</a></li>
-        <li><a href="#">Sponsor</a></li>
+        <li><a th:href="@{/opret-virksomhed}" href="opret-virksomhed.html">Virksomhed</a></li>
+        <li><a th:href="@{/#sponsorlink}" href="forside.html">Sponsor</a></li>
     </ul>
 </nav>
     <div class="opret-virksomhed">
@@ -32,7 +32,9 @@
         <p>Postnummer</p>
         <input placeholder="8000"></br>
         </br>
-        <button>Opret virksomhed</button>
+        <form th:action="@{/skemaside}" action="skemaside.html">
+            <input type="submit" value="Opret virksomhed" />
+        </form>
     </div>
 <footer>
     <div class="footerflex">
